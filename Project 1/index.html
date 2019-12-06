@@ -1,9 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+    <style>
+    body{
+        background-image: linear-gradient(45deg, #f00, #0f0, #00f);
+    }
+    .circle{
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    }
+    #outer{
+	width: 150px;
+    height: 150px;
+    background-color: #f00;
+}
+#middle{
+height: 100px;
+    width: 100px;
+    background-color: #fff;
+}
+#inner{
+height: 50px;
+    width: 50px;
+    background-color: #f00;
+}
+    </style>
     </head>
     <body>
-        Testttt
+        <div class="circle", id='outer'>
+            <div class="circle", id='middle'>
+                <div class="circle", id='inner'></div>
+            </div>
+        </div>
+        <!--<img src="http://www.action-builder.com/uploads/1/1/0/4/110435455/franken-furter_orig.png" width="360" height="200">-->
     </body>
 </html>
