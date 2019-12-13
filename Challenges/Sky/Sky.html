@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Emoji</title>
+        <title>Skyyy</title>
         <style>
             body{
                 background-image: linear-gradient(#000, #000, #060);
@@ -15,22 +15,43 @@
                 transform: translate(300%, 50%)
             }
             #red {
+                background: url('brickPatternD.png');
+                background-size: 40px;
                 width:300px;
                 height:200px;
-                background-color: #800;
-                transform: translate(0%, 100%);
+                background-color: #600;
+                transform: translate(0%, 150%);
             }
             #roof{
-                border-left: 50px solid transparent;
-                border-right: 50px solid transparent;
-                border-bottom: 100px solid orange;
-                transform: translate(0%, 200%)
+                width:0px;
+                height:10px;
+                border-left: 150px solid transparent;
+                border-right: 150px solid transparent;
+                border-bottom: 50px solid orange;
+                transform: translate(0%, 67%);
+            }
+            #door{
+                background: url('door.png') no-repeat center center;
+                background-size: 50px;
+                width:50px;
+                height:100px;
+                transform: translate(250%, 150%);
+                z-index:10;
+            }
+            #window{
+                background: url('window.png') no-repeat center center;
+                background-size: 50px;
+                width:50px;
+                height:100px;
+                transform: translate(250%, 150%);
+                z-index:10;
             }
         </style>
     </head>
     <body>
-    <div id='roof'></div>
     <div id='moon'></div>
     <div id='red'></div>
+    <div id='roof'></div>
+    <div id='door'></div>
     </body>
 </html>
