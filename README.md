@@ -5,4 +5,4 @@ Just
 Need
 Somebody,
 Help
-- The Beatles
+ - The Beatles
