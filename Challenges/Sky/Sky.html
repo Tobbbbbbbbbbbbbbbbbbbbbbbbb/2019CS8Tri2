@@ -48,9 +48,17 @@
                 background-size:contain;
                 position:absolute;
             }
+            #shootingStar{
+                background: url('shootingStar.png') no-repeat center center;
+                background-size:contain;
+                height:30px;
+                width:100px;
+                position:absolute;
+                top:100px;
+            }
         </style>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
     </head>
     <body>
 
@@ -61,6 +69,7 @@
     <div id='window' style='transform: translate(400%, -175%)'></div>
     </div>
     <div id='roof'></div>
+    <div id='shootingStar'></div>
     </body>
     <script src='Sky.js'></script>
 </html>
