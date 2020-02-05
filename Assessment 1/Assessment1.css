@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+
+.long{
+    overflow:hidden;
+    font-size:50px;
+    text-align: right;
+    border-radius:20px;
+    width:815px;
+    height:80px;
+    line-height: 80px;
+    margin-top:5px;
+}
+.box{
+    display:inline-block;
+    overflow:hidden;
+    font-size:50px;
+    text-align: center;
+    border-radius:20px;
+    width:200px;
+    height:100px;
+    line-height: 100px;
+}
+.orange{
+    background-color:#f90;
+    font-family: "Kranky";
+}
+.blue{
+    background-color: #00f;
+}
+.white{
+    color:#fff;
+}
+.alert{
+    width:200px;
+}
+.purple{
+    background-color: #60f;
+}
+.oorange{
+    background-color:#f90;
+}
