@@ -1,4 +1,4 @@
-$(".alert").click(
+$("#alert").click(
     function(){
         alert("hello");
     }
@@ -12,6 +12,6 @@ $(".oorange").click(
 );
 $(".blue").click(
     function(){
-        $( "div.long" ).replaceWith( "<div class='long blue'>" + randomNumber + "</div>" );
+        $( "div.long" ).replaceWith( "<div class='long blue kranky'>" + randomNumber + "</div>" );
     }
 );

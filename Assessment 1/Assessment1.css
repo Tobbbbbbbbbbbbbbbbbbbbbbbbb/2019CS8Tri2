@@ -24,14 +24,14 @@
     background-color:#f90;
     font-family: "Kranky";
 }
+.kranky{
+    font-family: "Kranky";
+}
 .blue{
     background-color: #00f;
 }
 .white{
     color:#fff;
-}
-.alert{
-    width:200px;
 }
 .purple{
     background-color: #60f;
